@@ -1,0 +1,107 @@
+/* main styles */
+
+.clocks {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.clock {
+    width: 20em;
+    height: 20em;
+    border-radius: 15%;
+    border: 0.15em solid #000000;
+    background: #f1f1f1;
+}
+
+.hour {
+    background: #FF0000FF;
+    border: 0.15em solid #000000;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+}
+
+.hand {
+    background: black;
+}
+
+.hours {
+    height: 0.5em;
+    width: 6.5em;
+}
+
+.minutes {
+    height: 10em;
+    width: 0.5em;
+}
+
+/* position */
+
+.position .clock {
+    position: relative;
+}
+
+.position .hour {
+    position: absolute;
+}
+
+.position .hour:nth-child(1) {
+    top: 5%;
+    left: 45%;
+}
+
+.position .hour:nth-child(2) {
+    top: 45%;
+    right: 5%;
+}
+
+.position .hour:nth-child(3) {
+    bottom: 5%;
+    left: 45%;
+}
+
+.position .hour:nth-child(4) {
+    top: 45%;
+    left: 5%;
+}
+
+.position .hand {
+    position: absolute;
+}
+
+.position .hours {
+    top: 50%;
+    left: 42%;
+}
+
+.position .minutes {
+    top: 10%;
+    left: 49.5%;
+}
+
+/* transform */
+
+.transform .hour:nth-child(1) {
+    transform: translate(9em, 1em);
+}
+
+.transform .hour:nth-child(2) {
+    transform: translate(16.5em, 6.75em);
+}
+
+.transform .hour:nth-child(3) {
+    transform: translate(9em, 12.1em);
+}
+
+.transform .hour:nth-child(4) {
+    transform: translate(1em, 2.15em);
+}
+
+.transform .hours {
+    transform: translate(8.25em, 0.75em);
+}
+
+.transform .minutes {
+    transform: translate(9.9em, -7.65em);
+}
