@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="IA-02, Андреєв Андрій, Основи Front-end технологій">
+    <meta name="description"
+          content="Лабораторна робота №5 з Основ Front-end технологій, виконав студент групи ІА-02 Андреєв Андрій">
+    <title>Андреєв А. О., ІА-02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <form>
+        <h1>Форма для заповнення</h1>
+        <div class="input-group">
+            <label for="full-name">ПІБ:</label>
+            <input type="text" name="full-name" id="full-name" placeholder="ТТТТТТ Т.Т.">
+        </div>
+        <div class="input-group">
+            <label for="variant">Варіант:</label>
+            <input type="text" name="variant" id="variant" placeholder="ЧЧ">
+        </div>
+        <div class="input-group">
+            <label for="telephone">Телефон:</label>
+            <input type="text" name="telephone" id="telephone" placeholder="(ЧЧЧ)-ЧЧЧ-ЧЧ-ЧЧ">
+        </div>
+        <div class="input-group">
+            <label for="faculty">Факультет:</label>
+            <input type="text" name="faculty" id="faculty" placeholder="ТТТТ">
+        </div>
+        <div class="input-group">
+            <label for="address">Адреса:</label>
+            <input type="text" name="address" id="address" placeholder="м. ЧЧЧЧЧЧ">
+        </div>
+        <button>Підтвердити</button>
+    </form>
+    <div class="confirmation-info">
+        <h3>Перевірте коректність введених даних</h3>
+        <p id="full-name-confirm"><span class="bold">ПІБ: </span><span class="value"></span></p>
+        <p id="variant-confirm"><span class="bold">Варіант: </span><span class="value"></span></p>
+        <p id="telephone-confirm"><span class="bold">Телефон: </span><span class="value"></span></p>
+        <p id="faculty-confirm"><span class="bold">Факультет: </span><span class="value"></span></p>
+        <p id="address-confirm"><span class="bold">Адреса: </span><span class="value"></span></p>
+    </div>
+</div>
+<script src="script1.js"></script>
+</body>
+</html>

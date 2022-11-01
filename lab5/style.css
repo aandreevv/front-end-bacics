@@ -1,0 +1,59 @@
+input.correct {
+    border: 3px solid green;
+}
+
+input.incorrect {
+    border: 3px solid red;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+form {
+    width: 30em;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    background: #c4c4c4;
+    border-radius: 1em;
+}
+
+label {
+    text-align: start;
+}
+
+.confirmation-info {
+    margin: 1em;
+    width: 15em;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+
+table, td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    cursor: default;
+}
+
+td {
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
