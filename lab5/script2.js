@@ -10,6 +10,9 @@ const getRGB = () => {
 }
 
 const setColor = (element, backgroundColor = getRGB(), color = getRGB()) => {
+    if (backgroundColor === '#000000') {
+        color = '#ffffff';
+    }
     element.style.backgroundColor = backgroundColor;
     element.style.color = color;
 }
