@@ -41,7 +41,7 @@ function Image({imgSrc}) {
     }
 
     return(
-        <div>
+        <>
             <div className="buttons">
                 <button id="addImg"
                         disabled={addDisabled}
@@ -57,7 +57,7 @@ function Image({imgSrc}) {
                         onClick={onDeleteClick}>Видалити</button>
             </div>
             <img src={imgSrc} width={imgWidth} alt="inserted" hidden={!addDisabled}/>
-        </div>
+        </>
     );
 }
 

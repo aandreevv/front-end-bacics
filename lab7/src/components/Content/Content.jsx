@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 
 class Content extends Component {
+
     getRandomColor = () => {
         return Math.floor(Math.random() * 255);
     }
@@ -10,9 +11,8 @@ class Content extends Component {
     }
 
     handleClick = (event) => {
-        const target = event.target;
-        target.style.backgroundColor = this.getRGB();
-        target.style.color = this.getRGB();
+        event.target.style.backgroundColor = this.getRGB();
+        event.target.style.color = this.getRGB();
     }
 
     render() {
@@ -51,8 +51,7 @@ class Content extends Component {
                     Після Першої світової війни, у 1919–1921 роках, місто було тимчасово окуповано італійцями.
                 </p>
                 <a href="https://uk.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%B0%D0%BB%D1%96%D1%8F">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Lower_D%C3%BCden_Waterfall.jpg/1280px-Lower_D%C3%BCden_Waterfall.jpg"
-                         alt="Водоспад Нижній Дюден в Анталії"/>
+                    <img src={this.props.imgSrc} alt="Водоспад Нижній Дюден в Анталії"/>
                 </a>
             </>
         )

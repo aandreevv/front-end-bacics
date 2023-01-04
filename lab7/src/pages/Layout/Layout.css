@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    background-color: #1D1D1D;
+    padding: 0.5em;
+}
+
+header h2 {
+    margin: 0;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a.active {
+    font-weight: bold;
+}
+
+header .links {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    padding: 0.75em;
+}
+
