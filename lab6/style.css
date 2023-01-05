@@ -1,4 +1,21 @@
 .container {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    background-color: #002347;
+    color: #ffffff;
+    padding: 1em 8em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #001b36;
+    transition: .5s;
+}
+
+.persons {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -10,13 +27,14 @@
 .person {
     display: flex;
     flex-direction: column;
-    width: 15em;
-    background: gray;
+    width: 18em;
+    background: #002347;
     margin: 0.5em;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .info {
-    padding: 0.5em;
+    padding: 1em;
 }
 
 p {

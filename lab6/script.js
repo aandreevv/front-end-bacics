@@ -1,4 +1,4 @@
-const container = document.querySelector('.container');
+const container = document.querySelector('.persons');
 
 const addButton = document.querySelector('#search-btn');
 
